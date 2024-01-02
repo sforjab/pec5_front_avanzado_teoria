@@ -29,5 +29,19 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "iamges-api",
+      "urls": [
+        "https://picsum.photos/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 10,
+        "maxAge": "1h",
+        "timeout": "1s",
+        "strategy": "freshness"
+      }
+    }
   ]
 }
